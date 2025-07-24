@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
+
+  <title>WELLKINDLED</title>
+
+  <!-- Flask static paths for CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/fullpage.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/templatemo-style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+
+  <!-- ✅ Slide-up animation style -->
+  <style>
+    .slide-up {
+      animation: slideUp 0.3s ease-out forwards;
+    }
+
+    @keyframes slideUp {
+      from {
+        transform: translateY(20px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    /* Optional: style chat messages */
+    .chat-body div {
+      margin: 5px 0;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<div id="video">
+  <div class="preloader">
+    <div class="preloader-bounce">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <header id="header">
+    <div class="container-fluid">
+      <div class="navbar">
+        <a href="#" id="logo" title="WELLKINDLED">WELLKINDLED</a>
+        <div class="navigation-row">
+          <nav id="navigation">
+            <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
+            <div class="nav-box navbar-collapse">
+              <ul class="navigation-menu nav navbar-nav navbars" id="nav">
+                <li data-menuanchor="slide01" class="active"><a href="#slide01">Home</a></li>
+                <li data-menuanchor="slide02"><a href="#slide02">Health Tips</a></li>
+                <li data-menuanchor="slide03"><a href="#slide03">Mental Health</a></li>
+                <li data-menuanchor="slide04"><a href="#slide04">Vedic</a></li>
+                <li data-menuanchor="slide05"><a href="#slide05">Contact Me</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <video autoplay muted loop id="myVideo">
+    <source src="{{ url_for('static', filename='images/video-bg.mp4') }}" type="video/mp4">
+  </video>
+
+  <div id="fullpage" class="fullpage-default">
+
+    <!-- Home Slide -->
+    <div class="section animated-row" data-section="slide01">
+      <div class="section-inner">
+        <div class="welcome-box">
+          <span class="welcome-first animate" data-animate="fadeInUp">Hello, welcome to</span>
+          <h1 class="welcome-title animate" data-animate="fadeInUp">WELLKINDLED</h1>
+          <p class="animate" data-animate="fadeInUp">"Nurturing your health is the spark that ignites a life of vitality and wellness."</p>
+          <div class="scroll-down next-section animate" data-animate="fadeInUp">
+            <img src="{{ url_for('static', filename='images/mouse-scroll.png') }}" alt=""><span>Scroll Down</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Health Tips Slide -->
+    <div class="section animated-row" data-section="slide02">
+      <div class="section-inner">
+        <div class="about-section">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 wide-col-laptop">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="about-contentbox">
+                    <div class="animate" data-animate="fadeInUp">
+                      <h2>Health Tips</h2>
+                      <p>Maintaining a healthy lifestyle doesn’t have to be complicated. Start by staying hydrated, eating a balanced diet with plenty of fruits and vegetables, and incorporating regular physical activity into your routine. Remember, small changes like taking the stairs instead of the elevator or adding a walk to your day can make a big difference over time. Prioritize sleep, manage stress, and listen to your body—it’s all about creating sustainable habits that promote long-term well-being.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <figure class="about-img animate" data-animate="fadeInUp">
+                    <img src="{{ url_for('static', filename='images/Healthtips.jpg') }}" class="rounded" alt="">
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mental Health Slide -->
+    <div class="section animated-row" data-section="slide03">
+      <div class="section-inner">
+        <div class="about-section">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 wide-col-laptop">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="about-contentbox">
+                    <div class="animate" data-animate="fadeInUp">
+                      <h2>Mental Health</h2>
+                      <p>Mental health is just as important as physical health, yet it often goes overlooked. Taking care of your mind is essential for overall well-being. Practicing mindfulness, engaging in positive self-talk, and setting healthy boundaries can help reduce stress and improve emotional resilience. It’s also important to seek support when needed—talking to a friend, family member, or professional can provide valuable perspectives and coping strategies. Remember, mental health is a journey, not a destination, and it’s okay to take it one step at a time.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <figure class="about-img animate" data-animate="fadeInUp">
+                    <img src="{{ url_for('static', filename='images/Mentalhealth.jpg') }}" class="rounded" alt="">
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vedic Slide (Chatbot) -->
+    <div class="section animated-row" data-section="slide04">
+      <div class="section-inner">
+        <div class="row justify-content-center">
+          <div class="col-md-8 wide-col-laptop">
+            <div class="title-block animate" data-animate="fadeInUp">
+              <span>VEDIC</span>
+              <h2>Your HealthCare Companion</h2>
+            </div>
+            <div class="col-md-8 offset-md-2">
+              <div class="testimonials-section">
+                <div class="item animate" data-animate="fadeInUp">
+                  <div class="testimonial-item">
+                    <div class="client-row">
+                      <img src="{{ url_for('static', filename='images/Bot.png') }}" class="rounded-circle" alt="profile 1">
+                    </div>
+                    <div class="chatbot-section">
+                      <div class="chat-container">
+                        <div class="chat-header">
+                          <h4>Chat with Vedic</h4>
+                        </div>
+                        <div class="chat-body"></div>
+                        <div class="chat-input">
+                          <input type="text" placeholder="Type your message..." id="message-input" style="opacity: 0.9;">
+                          <button id="send-button" style="background-color: transparent; border: 2px solid transparent; color: inherit;">Send</button>
+                        </div>
+                      </div>
+                    </div>                                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Slide -->
+    <div class="section animated-row" data-section="slide05">
+      <div class="section-inner">
+        <div class="row justify-content-center">
+          <div class="col-md-7 wide-col-laptop">
+            <div class="title-block animate" data-animate="fadeInUp">
+              <span>Contact</span>
+              <h2>Get In Touch!</h2>
+            </div>
+            <div class="contact-section">
+              <div class="row">
+                <div class="col-md-6 animate" data-animate="fadeInUp">
+                  <div class="contact-box">
+                    <div class="contact-row">
+                      <i class="fa fa-map-marker"></i> Pune 412202
+                    </div>
+                    <div class="contact-row">
+                      <i class="fa fa-phone"></i> +91 9322663622
+                    </div>
+                    <div class="contact-row">
+                      <i class="fa fa-envelope"></i> murkutehemant21@gmail.com
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 animate" data-animate="fadeInUp">
+                  <form id="ajax-contact" method="post" action="#">
+                    <div class="input-field">
+                      <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
+                    </div>
+                    <div class="input-field">
+                      <input type="email" class="form-control" name="email" id="email" required placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                      <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>
+                    </div>
+                    <button class="btn" type="submit">Submit</button>
+                  </form>
+                  <div id="form-messages" class="mt-3"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Chatbot JS with slide-up animation -->
+<script>
+document.getElementById('send-button').addEventListener('click', function() {
+  const userInput = document.getElementById('message-input').value.trim();
+  if (!userInput) return;
+
+  const chatBody = document.querySelector('.chat-body');
+
+  const userMessage = document.createElement('div');
+  userMessage.textContent = "You: " + userInput;
+  userMessage.classList.add('slide-up');
+  chatBody.appendChild(userMessage);
+
+  fetch('/get_response', {
+    method: 'POST',
+    body: JSON.stringify({ message: userInput }),
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  }).then(response => response.json())
+    .then(data => {
+      const botMessage = document.createElement('div');
+      botMessage.textContent = "Vedic: " + data.response;
+      botMessage.classList.add('slide-up');
+      chatBody.appendChild(botMessage);
+
+      chatBody.scrollTop = chatBody.scrollHeight;
+    });
+
+  document.getElementById('message-input').value = '';
+});
+</script>
+
+<!-- Flask static JS files -->
+<script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/fullpage.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/scrolloverflow.js') }}"></script>
+<script src="{{ url_for('static', filename='js/owl.carousel.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.inview.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/form.js') }}"></script>
+<script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+
+</body>
+</html>
