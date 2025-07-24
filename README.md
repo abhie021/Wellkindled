@@ -36,7 +36,7 @@ wellkindled/
 ## ⚙️ How to Run Locally
 
 1. Clone the repository:
-git clone https://github.com/abhie021/wellkindled.git
+git clone https://github.com/abhie021/Wellkindled.git
 cd wellkindled
 
 2. (Optional) Create a virtual environment:
