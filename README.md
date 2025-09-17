@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="static/images/Thumbnail.png" alt="Thumbnail" width="400">
+  <img src="static/images/Thumbnail.png" alt="Thumbnail" width="800">
 </p>
 
 # WELLKINDLED
