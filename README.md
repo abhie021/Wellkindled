@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="static/images/Thumbnail.png" alt="Thumbnail" width="400">
+</p>
+
 # WELLKINDLED
 
 **WELLKINDLED** is a simple healthcare blog with **Vedic**, an AI-powered chatbot built using **Python** and **Flask**. The chatbot answers basic health-related questions using a custom JSON knowledge base.
