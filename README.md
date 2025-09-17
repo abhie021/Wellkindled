@@ -1,5 +1,5 @@
 <p align="center">
-  <span style="font-size:40px; font-weight:bold;">WELLKINDLED</span>
+  <span style="font-size:80px; font-weight:bold;">WELLKINDLED</span>
 </p>
 
 
