@@ -1,6 +1,7 @@
 <p align="center">
-  # WELLKINDLED
-<p/>
+  <span style="font-size:40px; font-weight:bold;">WELLKINDLED</span>
+</p>
+
 
 <p align="center">
   <img src="static/images/Thumbnail.png" alt="Thumbnail" width="800">
