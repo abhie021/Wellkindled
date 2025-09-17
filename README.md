@@ -1,4 +1,6 @@
-# WELLKINDLED
+<p align="center">
+  # WELLKINDLED
+<p/>
 
 <p align="center">
   <img src="static/images/Thumbnail.png" alt="Thumbnail" width="800">
